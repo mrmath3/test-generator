@@ -1,0 +1,53 @@
+problem_id: appc-u1-t1-1-001
+author: Andrew Sindel
+source_type: original
+source_name: manual-seed-example
+
+course: AP Precalculus
+unit: 1
+topic: "1.1"
+subtopic: parent-functions-and-transformations
+standards:
+  - APPC 1.1
+
+format: MCQ
+difficulty: 2
+calculator_allowed: false
+
+prompt_latex: |
+  Let $f(x)=x^2$. Which function represents a vertical shift of $f$ up by 3 units?
+
+answer: |
+  x^2 + 3
+
+distractors:
+  - x^2 - 3
+  - (x+3)^2
+  - (x-3)^2
+
+solution_latex: |
+  A vertical shift up by 3 adds 3 to the output of the function, so the new function is
+  \[
+  f(x)+3 = x^2+3.
+  \]
+
+scoring_guide: null
+
+assets: []
+
+tags:
+  - transformations
+  - parent-functions
+  - vertical-shift
+  - multiple-choice
+
+notes: |
+  Good early-unit concept check. Distractors capture common confusion between vertical and horizontal shifts.
+
+copyright_status: safe
+
+usable_for:
+  - worksheet
+  - quiz
+  - test
+  - flashcards
